@@ -5,6 +5,9 @@ const UniLayout = ({children}: any) => {
         <React.Fragment>
             <NavigationBar/>
             {children}
+            <footer>
+                <p style={{textAlign: 'center', color: "#9C27B0"}}>&copy; {new Date().getFullYear()} MEHEDI HASAN</p>
+            </footer>
         </React.Fragment>
     );
 };

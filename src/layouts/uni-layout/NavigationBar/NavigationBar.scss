@@ -3,8 +3,8 @@
     width: 100%;
     background: linear-gradient(
         to right,
-        #834e69,
-        #5c2a63
+        #9C27B0,
+        #632b6c
     );
     position: sticky;
     top: 0;
@@ -64,9 +64,9 @@
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
     //   background-color: rgba(0, 0, 0, 0.3);
         background: linear-gradient(
-            to right,
-            #834e69,
-            #5c2a63
+            180deg,
+            #9C27B0,
+            #a249b0
         );
     }
     .nav > .nav-btn > label > span {
