@@ -22,14 +22,14 @@ const Home = () => {
     return (
         <React.Fragment>
             <Box className='container' sx={{ flexGrow: 1 }}>
-                <Grid container spacing={0} columns={30}>
+                <Grid container spacing={3} columns={30}>
                     {
                         userList.length > 0
                         ? userList?.map((user: any) => {
                             return <Grid key={user?.id} className='card-body' item={true} xs={30} sm={15} md={15} lg={10}>
-                                <Item>
+                                {/* <Item> */}
                                     <UserDetails style={{margin: 'auto', justifyContent: 'center'}} user={user} />
-                                </Item>
+                                {/* </Item> */}
                             </Grid>
                         })
                         : null

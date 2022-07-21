@@ -12,7 +12,7 @@ const UserDetails = ({user}: any) => {
                     <CardMedia
                         component="img"
                         height="140"
-                        image={user?.avata || "https://picsum.photos/200"}
+                        image={user?.avatar || "https://picsum.photos/200"}
                         alt="user avatar"
                     />
                     <CardContent>

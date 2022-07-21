@@ -2,12 +2,16 @@
 
 ### Simple React Typescript App With Context API
 
+## Hosting URL:
+#### https://simple-ts1-react-app.vercel.app
+
 ## Use tools and technologies
 * SCSS
 * Typescript
 * React
 * Context API
 * Material UI
+* Formik
 * React-toastify
 * React-router-dom
 
